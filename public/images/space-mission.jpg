@@ -1,0 +1,98 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="spaceBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f23;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="planetGradient" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#spaceBg)"/>
+  
+  <!-- Stars -->
+  <circle cx="100" cy="50" r="1" fill="#fff" opacity="0.8"/>
+  <circle cx="150" cy="80" r="1.5" fill="#fff" opacity="0.9"/>
+  <circle cx="200" cy="40" r="1" fill="#fff" opacity="0.7"/>
+  <circle cx="300" cy="60" r="1" fill="#fff" opacity="0.8"/>
+  <circle cx="450" cy="30" r="1.5" fill="#fff" opacity="0.9"/>
+  <circle cx="550" cy="70" r="1" fill="#fff" opacity="0.8"/>
+  <circle cx="650" cy="45" r="1" fill="#fff" opacity="0.7"/>
+  <circle cx="720" cy="90" r="1.5" fill="#fff" opacity="0.9"/>
+  <circle cx="80" cy="150" r="1" fill="#fff" opacity="0.8"/>
+  <circle cx="180" cy="180" r="1" fill="#fff" opacity="0.7"/>
+  <circle cx="680" cy="160" r="1" fill="#fff" opacity="0.8"/>
+  <circle cx="750" cy="200" r="1.5" fill="#fff" opacity="0.9"/>
+  
+  <!-- Distant galaxy/nebula -->
+  <ellipse cx="700" cy="100" rx="40" ry="20" fill="#667eea" opacity="0.3"/>
+  <ellipse cx="700" cy="100" rx="25" ry="12" fill="#764ba2" opacity="0.4"/>
+  
+  <!-- Main exoplanet -->
+  <circle cx="500" cy="200" r="60" fill="url(#planetGradient)" opacity="0.9"/>
+  
+  <!-- Planet surface details -->
+  <ellipse cx="480" cy="180" rx="15" ry="8" fill="#00d4aa" opacity="0.6"/>
+  <ellipse cx="520" cy="210" rx="20" ry="10" fill="#0099cc" opacity="0.5"/>
+  <ellipse cx="490" cy="220" rx="12" ry="6" fill="#00b4d8" opacity="0.7"/>
+  
+  <!-- Planet atmosphere -->
+  <circle cx="500" cy="200" r="65" fill="none" stroke="#4facfe" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Smaller exoplanets -->
+  <circle cx="200" cy="150" r="25" fill="#ff6b6b" opacity="0.8"/>
+  <circle cx="650" cy="280" r="30" fill="#feca57" opacity="0.8"/>
+  
+  <!-- Space telescope -->
+  <g transform="translate(100, 250)">
+    <!-- Main body -->
+    <rect x="0" y="10" width="80" height="20" rx="10" fill="#333" stroke="#555" stroke-width="1"/>
+    
+    <!-- Solar panels -->
+    <rect x="-20" y="5" width="15" height="30" fill="#1a5490" stroke="#2563eb" stroke-width="1"/>
+    <rect x="85" y="5" width="15" height="30" fill="#1a5490" stroke="#2563eb" stroke-width="1"/>
+    
+    <!-- Antenna -->
+    <circle cx="40" cy="0" r="8" fill="none" stroke="#fff" stroke-width="2"/>
+    <line x1="40" y1="8" x2="40" y2="10" stroke="#fff" stroke-width="2"/>
+    
+    <!-- Telescope lens -->
+    <circle cx="80" cy="20" r="6" fill="#4facfe" opacity="0.8"/>
+    
+    <!-- Signal waves -->
+    <path d="M90 20 Q110 10, 130 20" stroke="#4facfe" stroke-width="1" fill="none" opacity="0.6"/>
+    <path d="M90 20 Q110 30, 130 20" stroke="#4facfe" stroke-width="1" fill="none" opacity="0.6"/>
+  </g>
+  
+  <!-- Data transmission lines -->
+  <path d="M180 270 Q300 250, 450 180" stroke="#00d4aa" stroke-width="2" fill="none" opacity="0.7" stroke-dasharray="5,5"/>
+  <path d="M180 270 Q350 300, 620 290" stroke="#00d4aa" stroke-width="2" fill="none" opacity="0.7" stroke-dasharray="5,5"/>
+  
+  <!-- Orbital paths -->
+  <ellipse cx="400" cy="200" rx="150" ry="80" fill="none" stroke="#fff" stroke-width="1" opacity="0.3" stroke-dasharray="3,3"/>
+  <ellipse cx="400" cy="200" rx="280" ry="150" fill="none" stroke="#fff" stroke-width="1" opacity="0.2" stroke-dasharray="3,3"/>
+  
+  <!-- Central star (distant) -->
+  <circle cx="400" cy="200" r="8" fill="url(#starGlow)" opacity="0.8"/>
+  <circle cx="400" cy="200" r="4" fill="#ffd700"/>
+  
+  <!-- Discovery indicators -->
+  <g opacity="0.8">
+    <circle cx="500" cy="200" r="70" fill="none" stroke="#00d4aa" stroke-width="2" stroke-dasharray="10,5"/>
+    <text x="500" y="140" text-anchor="middle" fill="#00d4aa" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+      HABITABLE ZONE
+    </text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="370" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" opacity="0.9">
+    Space Mission Discovery
+  </text>
+</svg>

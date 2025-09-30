@@ -1,0 +1,41 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg12" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a8edea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fed6e3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg12)"/>
+  
+  <!-- Face -->
+  <circle cx="100" cy="85" r="35" fill="#d4a574"/>
+  
+  <!-- Hair -->
+  <path d="M65 70 Q100 45 135 70 Q135 85 100 85 Q65 85 65 70" fill="#654321"/>
+  
+  <!-- Eyes -->
+  <circle cx="90" cy="80" r="3" fill="#333"/>
+  <circle cx="110" cy="80" r="3" fill="#333"/>
+  
+  <!-- Nose -->
+  <ellipse cx="100" cy="88" rx="2" ry="3" fill="#c19660"/>
+  
+  <!-- Mouth -->
+  <path d="M95 95 Q100 100 105 95" stroke="#d63384" stroke-width="2" fill="none"/>
+  
+  <!-- Body/Casual shirt -->
+  <rect x="75" y="120" width="50" height="80" fill="#6c5ce7" rx="10"/>
+  
+  <!-- Film reel -->
+  <circle cx="100" cy="145" r="8" fill="#2d3436"/>
+  <circle cx="100" cy="145" r="6" fill="none" stroke="#ddd" stroke-width="1"/>
+  <circle cx="95" cy="140" r="1" fill="#ddd"/>
+  <circle cx="105" cy="140" r="1" fill="#ddd"/>
+  <circle cx="95" cy="150" r="1" fill="#ddd"/>
+  <circle cx="105" cy="150" r="1" fill="#ddd"/>
+  
+  <!-- Text -->
+  <text x="100" y="185" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Carlos Rodriguez</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ogBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  
+  <!-- Grid pattern overlay -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  
+  <!-- Main content area -->
+  <rect x="100" y="100" width="1000" height="430" fill="rgba(255,255,255,0.95)" rx="20"/>
+  
+  <!-- Logo/Brand area -->
+  <circle cx="200" cy="200" r="40" fill="#667eea"/>
+  <text x="200" y="210" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">N</text>
+  
+  <!-- Title -->
+  <text x="280" y="180" fill="#2c3e50" font-family="Arial, sans-serif" font-size="48" font-weight="bold">Global News Hub</text>
+  <text x="280" y="220" fill="#6c757d" font-family="Arial, sans-serif" font-size="24">Your trusted source for international news</text>
+  
+  <!-- Feature highlights -->
+  <g transform="translate(280,280)">
+    <text x="0" y="0" fill="#495057" font-family="Arial, sans-serif" font-size="20" font-weight="600">✓ Breaking News</text>
+    <text x="200" y="0" fill="#495057" font-family="Arial, sans-serif" font-size="20" font-weight="600">✓ Expert Analysis</text>
+    <text x="400" y="0" fill="#495057" font-family="Arial, sans-serif" font-size="20" font-weight="600">✓ Global Coverage</text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="950" cy="180" r="60" fill="rgba(118,75,162,0.2)"/>
+  <circle cx="1000" cy="250" r="40" fill="rgba(102,126,234,0.3)"/>
+  <circle cx="900" cy="300" r="30" fill="rgba(118,75,162,0.15)"/>
+  
+  <!-- Bottom accent -->
+  <rect x="100" y="500" width="1000" height="4" fill="#667eea"/>
+  
+  <!-- Website URL -->
+  <text x="600" y="570" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="18">globalnewshub.com</text>
+</svg>

@@ -1,0 +1,130 @@
+{
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ ما",
+    "retry": "حاول مرة أخرى",
+    "search": "بحث",
+    "readMore": "اقرأ المزيد",
+    "shareArticle": "شارك المقال",
+    "relatedArticles": "مقالات ذات صلة",
+    "noResults": "لم يتم العثور على نتائج",
+    "categories": "الفئات",
+    "all": "الكل",
+    "home": "الرئيسية",
+    "about": "حول",
+    "contact": "اتصل بنا"
+  },
+  "navigation": {
+    "logo": "بوابة الأخبار",
+    "home": "الرئيسية",
+    "technology": "التكنولوجيا",
+    "business": "الأعمال",
+    "sports": "الرياضة",
+    "search": "البحث",
+    "searchPlaceholder": "البحث في المقالات...",
+    "language": "اللغة"
+  },
+  "home": {
+    "title": "آخر الأخبار",
+    "subtitle": "ابق على اطلاع بآخر الأخبار والقصص",
+    "filterByCategory": "تصفية حسب الفئة",
+    "noArticles": "لم يتم العثور على مقالات"
+  },
+  "article": {
+    "publishedOn": "نُشر في",
+    "author": "بواسطة",
+    "tags": "العلامات",
+    "share": "شارك",
+    "shareOn": "شارك على",
+    "facebook": "فيسبوك",
+    "twitter": "تويتر",
+    "linkedin": "لينكد إن",
+    "copyLink": "نسخ الرابط",
+    "relatedArticles": "مقالات ذات صلة"
+  },
+  "search": {
+    "title": "البحث في المقالات",
+    "description": "ابحث في مجموعة مقالاتنا",
+    "placeholder": "أدخل كلمات مفتاحية للبحث...",
+    "resultsFor": "نتائج البحث عن",
+    "resultsTitle": "نتائج البحث عن \"{query}\"",
+    "resultsCount": "{count, plural, =0 {لا توجد نتائج} =1 {نتيجة واحدة} =2 {نتيجتان} other {# نتائج}}",
+    "noResults": "لم يتم العثور على نتائج",
+    "noResultsDescription": "لم نتمكن من العثور على أي مقالات تطابق بحثك. جرب تعديل مصطلحات البحث.",
+    "enterQuery": "ابدأ البحث",
+    "enterQueryDescription": "أدخل كلمات مفتاحية للعثور على مقالات ذات صلة",
+    "searchTips": "نصائح البحث:",
+    "tip1": "جرب كلمات مفتاحية مختلفة",
+    "tip2": "تحقق من الإملاء",
+    "tip3": "استخدم مصطلحات أكثر عمومية",
+    "tip4": "جرب البحث عن أسماء المؤلفين أو الفئات",
+    "by": "بواسطة",
+    "minRead": "دقيقة قراءة",
+    "endOfResults": "نهاية نتائج البحث"
+  },
+  "articles": {
+    "by": "بواسطة",
+    "noArticles": "لم يتم العثور على مقالات",
+    "previous": "السابق",
+    "next": "التالي",
+    "categories": {
+      "technology": "التكنولوجيا",
+      "business": "الأعمال",
+      "sports": "الرياضة",
+      "entertainment": "الترفيه",
+      "health": "الصحة",
+      "science": "العلوم",
+      "politics": "السياسة",
+      "world": "العالم"
+    }
+  },
+  "categories": {
+    "all": "الكل",
+    "technology": "التكنولوجيا",
+    "business": "الأعمال",
+    "sports": "الرياضة",
+    "entertainment": "الترفيه",
+    "health": "الصحة",
+    "science": "العلوم",
+    "politics": "السياسة",
+    "world": "العالم"
+  },
+  "pagination": {
+    "previous": "السابق",
+    "next": "التالي",
+    "page": "صفحة",
+    "of": "من"
+  },
+  "footer": {
+    "logo": "بوابة الأخبار",
+    "description": "مصدرك الموثوق لآخر الأخبار والتحديثات من جميع أنحاء العالم.",
+    "quickLinks": "روابط سريعة",
+    "categories": "الفئات",
+    "contact": "اتصل بنا",
+    "home": "الرئيسية",
+    "technology": "التكنولوجيا",
+    "business": "الأعمال",
+    "sports": "الرياضة",
+    "health": "الصحة",
+    "science": "العلوم",
+    "entertainment": "الترفيه",
+    "politics": "السياسة",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "address": "العنوان",
+    "allRightsReserved": "جميع الحقوق محفوظة."
+  },
+  "meta": {
+    "siteName": "بوابة الأخبار التجريبية",
+    "defaultTitle": "بوابة الأخبار التجريبية",
+    "defaultDescription": "مصدرك الموثوق لآخر الأخبار والتحديثات",
+    "homeTitle": "آخر الأخبار - بوابة الأخبار التجريبية",
+    "searchTitle": "البحث - بوابة الأخبار التجريبية"
+  },
+  "notFound": {
+    "title": "الصفحة غير موجودة",
+    "description": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
+    "backHome": "العودة للرئيسية",
+    "searchArticles": "البحث في المقالات"
+  }
+}

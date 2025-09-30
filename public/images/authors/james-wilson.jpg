@@ -1,0 +1,37 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fc466b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3f5efb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg8)"/>
+  
+  <!-- Face -->
+  <circle cx="100" cy="85" r="35" fill="#fdbcb4"/>
+  
+  <!-- Hair -->
+  <path d="M65 70 Q100 45 135 70 Q135 85 100 85 Q65 85 65 70" fill="#654321"/>
+  
+  <!-- Eyes -->
+  <circle cx="90" cy="80" r="3" fill="#333"/>
+  <circle cx="110" cy="80" r="3" fill="#333"/>
+  
+  <!-- Nose -->
+  <ellipse cx="100" cy="88" rx="2" ry="3" fill="#f4a688"/>
+  
+  <!-- Mouth -->
+  <path d="M95 95 Q100 100 105 95" stroke="#d63384" stroke-width="2" fill="none"/>
+  
+  <!-- Body/Business suit -->
+  <rect x="75" y="120" width="50" height="80" fill="#2c3e50" rx="10"/>
+  <rect x="85" y="125" width="30" height="70" fill="#34495e" rx="5"/>
+  
+  <!-- Tie -->
+  <polygon points="98,125 102,125 105,140 95,140" fill="#e74c3c"/>
+  
+  <!-- Text -->
+  <text x="100" y="185" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">James Wilson</text>
+</svg>

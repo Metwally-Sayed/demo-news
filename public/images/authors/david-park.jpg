@@ -1,0 +1,37 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg10" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg10)"/>
+  
+  <!-- Face -->
+  <circle cx="100" cy="85" r="35" fill="#f4c2a1"/>
+  
+  <!-- Hair -->
+  <path d="M65 70 Q100 45 135 70 Q135 85 100 85 Q65 85 65 70" fill="#2c1810"/>
+  
+  <!-- Eyes -->
+  <circle cx="90" cy="80" r="3" fill="#333"/>
+  <circle cx="110" cy="80" r="3" fill="#333"/>
+  
+  <!-- Nose -->
+  <ellipse cx="100" cy="88" rx="2" ry="3" fill="#e8a87c"/>
+  
+  <!-- Mouth -->
+  <path d="M95 95 Q100 100 105 95" stroke="#d63384" stroke-width="2" fill="none"/>
+  
+  <!-- Body/Business casual -->
+  <rect x="75" y="120" width="50" height="80" fill="#495057" rx="10"/>
+  <rect x="85" y="125" width="30" height="70" fill="#6c757d" rx="5"/>
+  
+  <!-- Dollar sign -->
+  <text x="100" y="150" text-anchor="middle" fill="#ffd700" font-family="Arial, sans-serif" font-size="20" font-weight="bold">$</text>
+  
+  <!-- Text -->
+  <text x="100" y="185" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">David Park</text>
+</svg>

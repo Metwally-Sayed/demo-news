@@ -1,0 +1,130 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "search": "Search",
+    "readMore": "Read more",
+    "shareArticle": "Share article",
+    "relatedArticles": "Related articles",
+    "noResults": "No results found",
+    "categories": "Categories",
+    "all": "All",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "navigation": {
+    "logo": "News Portal",
+    "home": "Home",
+    "technology": "Technology",
+    "business": "Business", 
+    "sports": "Sports",
+    "search": "Search",
+    "searchPlaceholder": "Search articles...",
+    "language": "Language"
+  },
+  "home": {
+    "title": "Latest News",
+    "subtitle": "Stay updated with the latest news and stories",
+    "filterByCategory": "Filter by category",
+    "noArticles": "No articles found"
+  },
+  "article": {
+    "publishedOn": "Published on",
+    "author": "By",
+    "tags": "Tags",
+    "share": "Share",
+    "shareOn": "Share on",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "copyLink": "Copy link",
+    "relatedArticles": "Related Articles"
+  },
+  "search": {
+    "title": "Search Articles",
+    "description": "Search through our collection of articles",
+    "placeholder": "Enter keywords to search...",
+    "resultsFor": "Results for",
+    "resultsTitle": "Search Results for \"{query}\"",
+    "resultsCount": "{count, plural, =0 {No results} =1 {1 result} other {# results}}",
+    "noResults": "No results found",
+    "noResultsDescription": "We couldn't find any articles matching your search. Try adjusting your search terms.",
+    "enterQuery": "Start your search",
+    "enterQueryDescription": "Enter keywords to find relevant articles",
+    "searchTips": "Search tips:",
+    "tip1": "Try different keywords",
+    "tip2": "Check your spelling",
+    "tip3": "Use more general terms",
+    "tip4": "Try searching for author names or categories",
+    "by": "by",
+    "minRead": "min read",
+    "endOfResults": "End of search results"
+  },
+  "articles": {
+    "by": "By",
+    "noArticles": "No articles found",
+    "previous": "Previous",
+    "next": "Next",
+    "categories": {
+      "technology": "Technology",
+      "business": "Business",
+      "sports": "Sports",
+      "entertainment": "Entertainment",
+      "health": "Health",
+      "science": "Science",
+      "politics": "Politics",
+      "world": "World"
+    }
+  },
+  "categories": {
+    "all": "All",
+    "technology": "Technology",
+    "business": "Business",
+    "sports": "Sports",
+    "entertainment": "Entertainment",
+    "health": "Health",
+    "science": "Science",
+    "politics": "Politics",
+    "world": "World"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of"
+  },
+  "footer": {
+    "logo": "News Portal",
+    "description": "Your trusted source for the latest news and updates from around the world.",
+    "quickLinks": "Quick Links",
+    "categories": "Categories",
+    "contact": "Contact",
+    "home": "Home",
+    "technology": "Technology",
+    "business": "Business",
+    "sports": "Sports",
+    "health": "Health",
+    "science": "Science",
+    "entertainment": "Entertainment",
+    "politics": "Politics",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "allRightsReserved": "All rights reserved."
+  },
+  "meta": {
+    "siteName": "Demo News Portal",
+    "defaultTitle": "Demo News Portal",
+    "defaultDescription": "Your trusted source for the latest news and updates",
+    "homeTitle": "Latest News - Demo News Portal",
+    "searchTitle": "Search - Demo News Portal"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home",
+    "searchArticles": "Search Articles"
+  }
+}

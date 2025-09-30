@@ -1,0 +1,144 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="oceanGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4682b4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87ceeb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4682b4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shipGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34495e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="800" height="200" fill="url(#skyGradient)"/>
+  
+  <!-- Ocean -->
+  <rect y="200" width="800" height="200" fill="url(#oceanGradient)"/>
+  
+  <!-- Waves -->
+  <path d="M0 220 Q100 210, 200 220 Q300 230, 400 220 Q500 210, 600 220 Q700 230, 800 220 L800 400 L0 400 Z" fill="#1e40af" opacity="0.3"/>
+  <path d="M0 240 Q150 230, 300 240 Q450 250, 600 240 Q750 230, 800 240 L800 400 L0 400 Z" fill="#1e40af" opacity="0.2"/>
+  
+  <!-- Container ship -->
+  <g transform="translate(150, 250)">
+    <!-- Ship hull -->
+    <path d="M0 50 L300 50 L320 70 L-20 70 Z" fill="url(#shipGradient)"/>
+    <rect x="0" y="30" width="300" height="20" fill="#e74c3c"/>
+    
+    <!-- Containers -->
+    <!-- Row 1 -->
+    <rect x="20" y="10" width="40" height="20" fill="#ff6b6b" stroke="#fff" stroke-width="1"/>
+    <rect x="70" y="10" width="40" height="20" fill="#4ecdc4" stroke="#fff" stroke-width="1"/>
+    <rect x="120" y="10" width="40" height="20" fill="#45b7d1" stroke="#fff" stroke-width="1"/>
+    <rect x="170" y="10" width="40" height="20" fill="#96ceb4" stroke="#fff" stroke-width="1"/>
+    <rect x="220" y="10" width="40" height="20" fill="#feca57" stroke="#fff" stroke-width="1"/>
+    
+    <!-- Row 2 -->
+    <rect x="20" y="30" width="40" height="20" fill="#ff9ff3" stroke="#fff" stroke-width="1"/>
+    <rect x="70" y="30" width="40" height="20" fill="#54a0ff" stroke="#fff" stroke-width="1"/>
+    <rect x="120" y="30" width="40" height="20" fill="#5f27cd" stroke="#fff" stroke-width="1"/>
+    <rect x="170" y="30" width="40" height="20" fill="#00d2d3" stroke="#fff" stroke-width="1"/>
+    <rect x="220" y="30" width="40" height="20" fill="#ff6348" stroke="#fff" stroke-width="1"/>
+    
+    <!-- Ship superstructure -->
+    <rect x="250" y="-10" width="50" height="40" fill="#34495e"/>
+    <rect x="260" y="-5" width="30" height="30" fill="#2c3e50"/>
+    
+    <!-- Smokestacks -->
+    <rect x="270" y="-20" width="6" height="20" fill="#e74c3c"/>
+    <rect x="280" y="-20" width="6" height="20" fill="#e74c3c"/>
+    
+    <!-- Smoke -->
+    <circle cx="273" cy="-25" r="3" fill="#95a5a6" opacity="0.7"/>
+    <circle cx="283" cy="-25" r="3" fill="#95a5a6" opacity="0.7"/>
+    <circle cx="275" cy="-30" r="2" fill="#95a5a6" opacity="0.5"/>
+    <circle cx="285" cy="-30" r="2" fill="#95a5a6" opacity="0.5"/>
+  </g>
+  
+  <!-- Port cranes -->
+  <g transform="translate(600, 150)">
+    <!-- Crane 1 -->
+    <rect x="0" y="100" width="8" height="100" fill="#7f8c8d"/>
+    <rect x="-20" y="80" width="48" height="8" fill="#7f8c8d"/>
+    <rect x="40" y="88" width="8" height="80" fill="#7f8c8d"/>
+    <rect x="44" y="168" width="20" height="8" fill="#7f8c8d"/>
+    
+    <!-- Crane 2 -->
+    <rect x="80" y="120" width="8" height="80" fill="#7f8c8d"/>
+    <rect x="60" y="100" width="48" height="8" fill="#7f8c8d"/>
+    <rect x="120" y="108" width="8" height="60" fill="#7f8c8d"/>
+    <rect x="124" y="168" width="20" height="8" fill="#7f8c8d"/>
+    
+    <!-- Containers being moved -->
+    <rect x="10" y="70" width="20" height="10" fill="#e67e22"/>
+    <rect x="90" y="90" width="20" height="10" fill="#3498db"/>
+  </g>
+  
+  <!-- Cargo plane -->
+  <g transform="translate(50, 80)">
+    <!-- Fuselage -->
+    <ellipse cx="40" cy="0" rx="40" ry="8" fill="#bdc3c7"/>
+    <!-- Wings -->
+    <rect x="20" y="-2" width="40" height="4" fill="#95a5a6"/>
+    <!-- Tail -->
+    <polygon points="80,0 90,-5 90,5" fill="#95a5a6"/>
+    <!-- Cargo door -->
+    <rect x="10" y="-4" width="15" height="8" fill="#34495e"/>
+  </g>
+  
+  <!-- Trucks -->
+  <g transform="translate(500, 320)">
+    <!-- Truck 1 -->
+    <rect x="0" y="0" width="40" height="15" fill="#e74c3c"/>
+    <rect x="35" y="-5" width="15" height="15" fill="#c0392b"/>
+    <circle cx="10" cy="18" r="4" fill="#2c3e50"/>
+    <circle cx="35" cy="18" r="4" fill="#2c3e50"/>
+    
+    <!-- Truck 2 -->
+    <rect x="60" y="5" width="40" height="15" fill="#3498db"/>
+    <rect x="95" y="0" width="15" height="15" fill="#2980b9"/>
+    <circle cx="70" cy="23" r="4" fill="#2c3e50"/>
+    <circle cx="95" cy="23" r="4" fill="#2c3e50"/>
+  </g>
+  
+  <!-- Global trade arrows -->
+  <g opacity="0.8">
+    <!-- Arrow 1 -->
+    <path d="M100 150 Q200 120, 300 150" stroke="#f39c12" stroke-width="4" fill="none" stroke-dasharray="5,5"/>
+    <polygon points="300,150 295,145 295,155" fill="#f39c12"/>
+    
+    <!-- Arrow 2 -->
+    <path d="M500 180 Q600 160, 700 180" stroke="#e67e22" stroke-width="4" fill="none" stroke-dasharray="5,5"/>
+    <polygon points="700,180 695,175 695,185" fill="#e67e22"/>
+    
+    <!-- Arrow 3 (reverse) -->
+    <path d="M400 100 Q300 80, 200 100" stroke="#27ae60" stroke-width="4" fill="none" stroke-dasharray="5,5"/>
+    <polygon points="200,100 205,95 205,105" fill="#27ae60"/>
+  </g>
+  
+  <!-- Currency symbols -->
+  <g opacity="0.9">
+    <text x="120" y="130" text-anchor="middle" fill="#f1c40f" font-family="Arial, sans-serif" font-size="20" font-weight="bold">$</text>
+    <text x="320" y="130" text-anchor="middle" fill="#f1c40f" font-family="Arial, sans-serif" font-size="20" font-weight="bold">€</text>
+    <text x="520" y="160" text-anchor="middle" fill="#f1c40f" font-family="Arial, sans-serif" font-size="20" font-weight="bold">¥</text>
+    <text x="720" y="160" text-anchor="middle" fill="#f1c40f" font-family="Arial, sans-serif" font-size="20" font-weight="bold">£</text>
+  </g>
+  
+  <!-- World map outline -->
+  <g transform="translate(300, 30)" opacity="0.3">
+    <!-- Simplified continents -->
+    <path d="M0 20 Q20 10, 40 20 Q60 30, 80 20 Q100 10, 120 20 Q140 30, 160 20" stroke="#fff" stroke-width="2" fill="none"/>
+    <path d="M20 40 Q40 30, 60 40 Q80 50, 100 40" stroke="#fff" stroke-width="2" fill="none"/>
+    <path d="M140 40 Q160 30, 180 40" stroke="#fff" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" opacity="0.9">
+    International Trade Routes
+  </text>
+</svg>

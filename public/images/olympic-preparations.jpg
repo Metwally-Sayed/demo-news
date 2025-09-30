@@ -1,0 +1,227 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87ceeb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4682b4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="stadiumGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#95a5a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7f8c8d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="trackGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="flameGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f7931e;stop-opacity:0.8" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#skyGradient)"/>
+  
+  <!-- Stadium structure -->
+  <g transform="translate(200, 150)">
+    <!-- Main stadium bowl -->
+    <ellipse cx="200" cy="150" rx="180" ry="80" fill="url(#stadiumGradient)" stroke="#34495e" stroke-width="3"/>
+    
+    <!-- Stadium tiers -->
+    <ellipse cx="200" cy="150" rx="160" ry="70" fill="#bdc3c7" opacity="0.8"/>
+    <ellipse cx="200" cy="150" rx="140" ry="60" fill="#95a5a6" opacity="0.8"/>
+    
+    <!-- Stadium roof -->
+    <path d="M20 150 Q200 100, 380 150 Q200 120, 20 150" fill="#34495e" opacity="0.9"/>
+    
+    <!-- Support pillars -->
+    <rect x="50" y="120" width="8" height="60" fill="#2c3e50"/>
+    <rect x="100" y="110" width="8" height="70" fill="#2c3e50"/>
+    <rect x="150" y="105" width="8" height="75" fill="#2c3e50"/>
+    <rect x="250" y="105" width="8" height="75" fill="#2c3e50"/>
+    <rect x="300" y="110" width="8" height="70" fill="#2c3e50"/>
+    <rect x="350" y="120" width="8" height="60" fill="#2c3e50"/>
+    
+    <!-- Track -->
+    <ellipse cx="200" cy="180" rx="120" ry="40" fill="url(#trackGradient)"/>
+    
+    <!-- Track lanes -->
+    <ellipse cx="200" cy="180" rx="110" ry="35" fill="none" stroke="#fff" stroke-width="2"/>
+    <ellipse cx="200" cy="180" rx="100" ry="30" fill="none" stroke="#fff" stroke-width="2"/>
+    <ellipse cx="200" cy="180" rx="90" ry="25" fill="none" stroke="#fff" stroke-width="2"/>
+    <ellipse cx="200" cy="180" rx="80" ry="20" fill="none" stroke="#fff" stroke-width="2"/>
+    
+    <!-- Field -->
+    <ellipse cx="200" cy="180" rx="70" ry="15" fill="#27ae60"/>
+    
+    <!-- Starting blocks -->
+    <rect x="180" y="160" width="4" height="6" fill="#fff"/>
+    <rect x="190" y="160" width="4" height="6" fill="#fff"/>
+    <rect x="200" y="160" width="4" height="6" fill="#fff"/>
+    <rect x="210" y="160" width="4" height="6" fill="#fff"/>
+    <rect x="220" y="160" width="4" height="6" fill="#fff"/>
+  </g>
+  
+  <!-- Olympic rings -->
+  <g transform="translate(50, 50)">
+    <!-- Blue ring -->
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#0066cc" stroke-width="4"/>
+    <!-- Yellow ring -->
+    <circle cx="50" cy="0" r="20" fill="none" stroke="#ffcc00" stroke-width="4"/>
+    <!-- Black ring -->
+    <circle cx="100" cy="0" r="20" fill="none" stroke="#000000" stroke-width="4"/>
+    <!-- Green ring -->
+    <circle cx="150" cy="0" r="20" fill="none" stroke="#009900" stroke-width="4"/>
+    <!-- Red ring -->
+    <circle cx="200" cy="0" r="20" fill="none" stroke="#cc0000" stroke-width="4"/>
+    
+    <!-- Interlocking rings (bottom row) -->
+    <circle cx="25" cy="25" r="20" fill="none" stroke="#0066cc" stroke-width="4" opacity="0.7"/>
+    <circle cx="75" cy="25" r="20" fill="none" stroke="#ffcc00" stroke-width="4" opacity="0.7"/>
+    <circle cx="125" cy="25" r="20" fill="none" stroke="#000000" stroke-width="4" opacity="0.7"/>
+  </g>
+  
+  <!-- Olympic torch -->
+  <g transform="translate(650, 80)">
+    <!-- Torch base -->
+    <rect x="0" y="60" width="20" height="80" fill="#8b4513"/>
+    <rect x="5" y="65" width="10" height="70" fill="#a0522d"/>
+    
+    <!-- Torch bowl -->
+    <ellipse cx="10" cy="60" rx="15" ry="8" fill="#95a5a6"/>
+    <ellipse cx="10" cy="58" rx="12" ry="6" fill="#7f8c8d"/>
+    
+    <!-- Olympic flame -->
+    <ellipse cx="10" cy="45" rx="8" ry="15" fill="url(#flameGradient)"/>
+    <ellipse cx="8" cy="40" rx="6" ry="12" fill="#ff6b35"/>
+    <ellipse cx="12" cy="38" rx="4" ry="10" fill="#ffcc00"/>
+    
+    <!-- Flame glow -->
+    <circle cx="10" cy="45" r="20" fill="#ff6b35" opacity="0.2"/>
+    
+    <!-- Torch handle details -->
+    <rect x="2" y="80" width="16" height="3" fill="#654321"/>
+    <rect x="2" y="100" width="16" height="3" fill="#654321"/>
+    <rect x="2" y="120" width="16" height="3" fill="#654321"/>
+  </g>
+  
+  <!-- Athletes -->
+  <g transform="translate(100, 280)">
+    <!-- Runner 1 -->
+    <circle cx="0" cy="0" r="8" fill="#f4d1ae"/>
+    <rect x="-5" y="8" width="10" height="15" fill="#e74c3c"/>
+    <rect x="-3" y="23" width="6" height="20" fill="#2c3e50"/>
+    <rect x="-2" y="43" width="4" height="15" fill="#f4d1ae"/>
+    <!-- Arms -->
+    <rect x="-8" y="10" width="4" height="12" fill="#f4d1ae" transform="rotate(-30 -6 16)"/>
+    <rect x="4" y="10" width="4" height="12" fill="#f4d1ae" transform="rotate(30 6 16)"/>
+    
+    <!-- Runner 2 -->
+    <circle cx="40" cy="0" r="8" fill="#d4a574"/>
+    <rect x="35" y="8" width="10" height="15" fill="#3498db"/>
+    <rect x="37" y="23" width="6" height="20" fill="#2c3e50"/>
+    <rect x="38" y="43" width="4" height="15" fill="#d4a574"/>
+    <!-- Arms -->
+    <rect x="32" y="10" width="4" height="12" fill="#d4a574" transform="rotate(30 34 16)"/>
+    <rect x="44" y="10" width="4" height="12" fill="#d4a574" transform="rotate(-30 46 16)"/>
+    
+    <!-- Runner 3 -->
+    <circle cx="80" cy="0" r="8" fill="#c19a6b"/>
+    <rect x="75" y="8" width="10" height="15" fill="#27ae60"/>
+    <rect x="77" y="23" width="6" height="20" fill="#2c3e50"/>
+    <rect x="78" y="43" width="4" height="15" fill="#c19a6b"/>
+    <!-- Arms -->
+    <rect x="72" y="10" width="4" height="12" fill="#c19a6b" transform="rotate(-20 74 16)"/>
+    <rect x="84" y="10" width="4" height="12" fill="#c19a6b" transform="rotate(20 86 16)"/>
+  </g>
+  
+  <!-- Swimming pool -->
+  <g transform="translate(450, 300)">
+    <!-- Pool -->
+    <rect x="0" y="0" width="200" height="80" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    
+    <!-- Pool lanes -->
+    <line x1="25" y1="0" x2="25" y2="80" stroke="#fff" stroke-width="2"/>
+    <line x1="50" y1="0" x2="50" y2="80" stroke="#fff" stroke-width="2"/>
+    <line x1="75" y1="0" x2="75" y2="80" stroke="#fff" stroke-width="2"/>
+    <line x1="100" y1="0" x2="100" y2="80" stroke="#fff" stroke-width="2"/>
+    <line x1="125" y1="0" x2="125" y2="80" stroke="#fff" stroke-width="2"/>
+    <line x1="150" y1="0" x2="150" y2="80" stroke="#fff" stroke-width="2"/>
+    <line x1="175" y1="0" x2="175" y2="80" stroke="#fff" stroke-width="2"/>
+    
+    <!-- Swimmers -->
+    <ellipse cx="37" cy="20" rx="8" ry="4" fill="#f4d1ae"/>
+    <ellipse cx="87" cy="30" rx="8" ry="4" fill="#d4a574"/>
+    <ellipse cx="137" cy="25" rx="8" ry="4" fill="#c19a6b"/>
+    
+    <!-- Water ripples -->
+    <ellipse cx="37" cy="20" rx="15" ry="8" fill="none" stroke="#fff" stroke-width="1" opacity="0.5"/>
+    <ellipse cx="87" cy="30" rx="15" ry="8" fill="none" stroke="#fff" stroke-width="1" opacity="0.5"/>
+    <ellipse cx="137" cy="25" rx="15" ry="8" fill="none" stroke="#fff" stroke-width="1" opacity="0.5"/>
+  </g>
+  
+  <!-- Flags -->
+  <g transform="translate(50, 200)">
+    <!-- Flag poles -->
+    <rect x="0" y="0" width="3" height="60" fill="#8b4513"/>
+    <rect x="30" y="0" width="3" height="60" fill="#8b4513"/>
+    <rect x="60" y="0" width="3" height="60" fill="#8b4513"/>
+    <rect x="90" y="0" width="3" height="60" fill="#8b4513"/>
+    
+    <!-- Flags -->
+    <rect x="3" y="0" width="25" height="15" fill="#ff0000"/>
+    <rect x="33" y="0" width="25" height="15" fill="#0066cc"/>
+    <rect x="63" y="0" width="25" height="15" fill="#009900"/>
+    <rect x="93" y="0" width="25" height="15" fill="#ffcc00"/>
+    
+    <!-- Flag details -->
+    <rect x="8" y="3" width="15" height="3" fill="#fff"/>
+    <rect x="38" y="3" width="15" height="3" fill="#fff"/>
+    <rect x="68" y="3" width="15" height="3" fill="#fff"/>
+    <rect x="98" y="3" width="15" height="3" fill="#e74c3c"/>
+  </g>
+  
+  <!-- Construction cranes (preparation) -->
+  <g transform="translate(700, 200)" opacity="0.6">
+    <!-- Crane 1 -->
+    <rect x="0" y="50" width="6" height="100" fill="#7f8c8d"/>
+    <rect x="-20" y="30" width="46" height="6" fill="#7f8c8d"/>
+    <rect x="40" y="36" width="6" height="40" fill="#7f8c8d"/>
+    
+    <!-- Crane 2 -->
+    <rect x="60" y="70" width="6" height="80" fill="#7f8c8d"/>
+    <rect x="40" y="50" width="46" height="6" fill="#7f8c8d"/>
+    <rect x="100" y="56" width="6" height="30" fill="#7f8c8d"/>
+  </g>
+  
+  <!-- Countdown timer -->
+  <g transform="translate(300, 50)">
+    <rect x="0" y="0" width="120" height="40" fill="#2c3e50" stroke="#3498db" stroke-width="2" rx="5"/>
+    <text x="60" y="15" text-anchor="middle" fill="#3498db" font-family="Arial, sans-serif" font-size="10" font-weight="bold">COUNTDOWN</text>
+    <text x="60" y="30" text-anchor="middle" fill="#e74c3c" font-family="Arial, sans-serif" font-size="16" font-weight="bold">127 DAYS</text>
+  </g>
+  
+  <!-- Medals -->
+  <g transform="translate(600, 250)">
+    <!-- Gold medal -->
+    <circle cx="0" cy="0" r="15" fill="#ffd700" stroke="#ffcc00" stroke-width="2"/>
+    <text x="0" y="4" text-anchor="middle" fill="#cc9900" font-family="Arial, sans-serif" font-size="12" font-weight="bold">1</text>
+    
+    <!-- Silver medal -->
+    <circle cx="35" cy="0" r="15" fill="#c0c0c0" stroke="#a0a0a0" stroke-width="2"/>
+    <text x="35" y="4" text-anchor="middle" fill="#808080" font-family="Arial, sans-serif" font-size="12" font-weight="bold">2</text>
+    
+    <!-- Bronze medal -->
+    <circle cx="70" cy="0" r="15" fill="#cd7f32" stroke="#b8722c" stroke-width="2"/>
+    <text x="70" y="4" text-anchor="middle" fill="#8b5a2b" font-family="Arial, sans-serif" font-size="12" font-weight="bold">3</text>
+    
+    <!-- Medal ribbons -->
+    <rect x="-3" y="15" width="6" height="20" fill="#e74c3c"/>
+    <rect x="32" y="15" width="6" height="20" fill="#e74c3c"/>
+    <rect x="67" y="15" width="6" height="20" fill="#e74c3c"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" opacity="0.9">
+    Olympic Games Preparation
+  </text>
+</svg>

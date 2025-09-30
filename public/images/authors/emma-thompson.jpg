@@ -1,0 +1,36 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a8edea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fed6e3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg4)"/>
+  
+  <!-- Face -->
+  <circle cx="100" cy="85" r="35" fill="#fdbcb4"/>
+  
+  <!-- Hair -->
+  <path d="M65 65 Q100 40 135 65 Q140 75 130 85 Q100 90 70 85 Q60 75 65 65" fill="#daa520"/>
+  
+  <!-- Eyes -->
+  <circle cx="90" cy="80" r="3" fill="#333"/>
+  <circle cx="110" cy="80" r="3" fill="#333"/>
+  
+  <!-- Nose -->
+  <ellipse cx="100" cy="88" rx="2" ry="3" fill="#f4a688"/>
+  
+  <!-- Mouth -->
+  <path d="M95 95 Q100 100 105 95" stroke="#d63384" stroke-width="2" fill="none"/>
+  
+  <!-- Body/Elegant top -->
+  <rect x="75" y="120" width="50" height="80" fill="#8e44ad" rx="10"/>
+  
+  <!-- Necklace -->
+  <circle cx="100" cy="125" r="3" fill="#ffd700"/>
+  
+  <!-- Text -->
+  <text x="100" y="185" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Emma Thompson</text>
+</svg>

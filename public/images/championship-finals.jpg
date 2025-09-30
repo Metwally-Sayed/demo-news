@@ -1,0 +1,84 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stadiumBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f4c75;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3282b8;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="spotlight" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#fff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#fff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#stadiumBg)"/>
+  
+  <!-- Stadium lights effect -->
+  <ellipse cx="400" cy="120" rx="300" ry="150" fill="url(#spotlight)"/>
+  
+  <!-- Stadium structure -->
+  <path d="M50 300 Q400 250, 750 300 L750 350 Q400 300, 50 350 Z" fill="#1a1a2e" opacity="0.8"/>
+  
+  <!-- Field/court -->
+  <ellipse cx="400" cy="280" rx="250" ry="80" fill="#2d5016" opacity="0.9"/>
+  <ellipse cx="400" cy="280" rx="240" ry="70" fill="none" stroke="#fff" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Center circle -->
+  <circle cx="400" cy="280" r="30" fill="none" stroke="#fff" stroke-width="2" opacity="0.8"/>
+  
+  <!-- Trophy -->
+  <g transform="translate(350, 150)">
+    <!-- Trophy base -->
+    <rect x="40" y="80" width="20" height="15" fill="#ffd700"/>
+    <rect x="35" y="95" width="30" height="8" fill="#ffd700"/>
+    
+    <!-- Trophy stem -->
+    <rect x="47" y="60" width="6" height="20" fill="#ffd700"/>
+    
+    <!-- Trophy cup -->
+    <path d="M30 40 Q30 25, 50 25 Q70 25, 70 40 L65 60 Q50 65, 35 60 Z" fill="#ffd700"/>
+    
+    <!-- Trophy handles -->
+    <path d="M25 35 Q20 35, 20 45 Q20 55, 25 55" stroke="#ffd700" stroke-width="3" fill="none"/>
+    <path d="M75 35 Q80 35, 80 45 Q80 55, 75 55" stroke="#ffd700" stroke-width="3" fill="none"/>
+    
+    <!-- Trophy shine -->
+    <ellipse cx="45" cy="35" rx="8" ry="12" fill="#fff" opacity="0.3"/>
+  </g>
+  
+  <!-- Crowd silhouettes -->
+  <g opacity="0.4">
+    <rect x="0" y="320" width="800" height="20" fill="#000"/>
+    <circle cx="50" cy="320" r="8" fill="#000"/>
+    <circle cx="70" cy="315" r="8" fill="#000"/>
+    <circle cx="90" cy="325" r="8" fill="#000"/>
+    <circle cx="110" cy="318" r="8" fill="#000"/>
+    <circle cx="130" cy="322" r="8" fill="#000"/>
+    
+    <circle cx="670" cy="320" r="8" fill="#000"/>
+    <circle cx="690" cy="315" r="8" fill="#000"/>
+    <circle cx="710" cy="325" r="8" fill="#000"/>
+    <circle cx="730" cy="318" r="8" fill="#000"/>
+    <circle cx="750" cy="322" r="8" fill="#000"/>
+  </g>
+  
+  <!-- Fireworks/celebration effects -->
+  <g opacity="0.7">
+    <circle cx="150" cy="100" r="3" fill="#ff6b6b"/>
+    <circle cx="160" cy="90" r="2" fill="#4ecdc4"/>
+    <circle cx="140" cy="110" r="2" fill="#ffe66d"/>
+    
+    <circle cx="650" cy="80" r="3" fill="#ff6b6b"/>
+    <circle cx="640" cy="70" r="2" fill="#4ecdc4"/>
+    <circle cx="660" cy="90" r="2" fill="#ffe66d"/>
+    
+    <!-- Sparkle effects -->
+    <path d="M200 120 L205 125 L200 130 L195 125 Z" fill="#fff"/>
+    <path d="M600 110 L605 115 L600 120 L595 115 Z" fill="#fff"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="370" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" opacity="0.9">
+    Championship Finals
+  </text>
+</svg>

@@ -1,0 +1,70 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="marketBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3c72;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a5298;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chartGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4aa;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#00d4aa;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#marketBg)"/>
+  
+  <!-- Grid lines -->
+  <g opacity="0.2">
+    <line x1="100" y1="50" x2="700" y2="50" stroke="#fff" stroke-width="1"/>
+    <line x1="100" y1="100" x2="700" y2="100" stroke="#fff" stroke-width="1"/>
+    <line x1="100" y1="150" x2="700" y2="150" stroke="#fff" stroke-width="1"/>
+    <line x1="100" y1="200" x2="700" y2="200" stroke="#fff" stroke-width="1"/>
+    <line x1="100" y1="250" x2="700" y2="250" stroke="#fff" stroke-width="1"/>
+    <line x1="100" y1="300" x2="700" y2="300" stroke="#fff" stroke-width="1"/>
+    
+    <line x1="150" y1="50" x2="150" y2="300" stroke="#fff" stroke-width="1"/>
+    <line x1="250" y1="50" x2="250" y2="300" stroke="#fff" stroke-width="1"/>
+    <line x1="350" y1="50" x2="350" y2="300" stroke="#fff" stroke-width="1"/>
+    <line x1="450" y1="50" x2="450" y2="300" stroke="#fff" stroke-width="1"/>
+    <line x1="550" y1="50" x2="550" y2="300" stroke="#fff" stroke-width="1"/>
+    <line x1="650" y1="50" x2="650" y2="300" stroke="#fff" stroke-width="1"/>
+  </g>
+  
+  <!-- Stock chart line -->
+  <path d="M100 200 L150 180 L200 160 L250 170 L300 140 L350 120 L400 130 L450 110 L500 100 L550 90 L600 85 L650 80 L700 75" 
+        stroke="#00d4aa" stroke-width="3" fill="none"/>
+  
+  <!-- Chart area fill -->
+  <path d="M100 200 L150 180 L200 160 L250 170 L300 140 L350 120 L400 130 L450 110 L500 100 L550 90 L600 85 L650 80 L700 75 L700 300 L100 300 Z" 
+        fill="url(#chartGradient)"/>
+  
+  <!-- Data points -->
+  <circle cx="150" cy="180" r="4" fill="#00d4aa"/>
+  <circle cx="250" cy="170" r="4" fill="#00d4aa"/>
+  <circle cx="350" cy="120" r="4" fill="#00d4aa"/>
+  <circle cx="450" cy="110" r="4" fill="#00d4aa"/>
+  <circle cx="550" cy="90" r="4" fill="#00d4aa"/>
+  <circle cx="650" cy="80" r="4" fill="#00d4aa"/>
+  
+  <!-- Globe icon -->
+  <g transform="translate(50, 50)">
+    <circle cx="25" cy="25" r="20" fill="none" stroke="#fff" stroke-width="2" opacity="0.8"/>
+    <path d="M5 25 Q25 15, 45 25" stroke="#fff" stroke-width="1.5" fill="none" opacity="0.8"/>
+    <path d="M5 25 Q25 35, 45 25" stroke="#fff" stroke-width="1.5" fill="none" opacity="0.8"/>
+    <line x1="25" y1="5" x2="25" y2="45" stroke="#fff" stroke-width="1.5" opacity="0.8"/>
+  </g>
+  
+  <!-- Currency symbols -->
+  <text x="720" y="80" fill="#fff" font-family="Arial, sans-serif" font-size="16" font-weight="bold" opacity="0.7">$</text>
+  <text x="720" y="120" fill="#fff" font-family="Arial, sans-serif" font-size="16" font-weight="bold" opacity="0.7">€</text>
+  <text x="720" y="160" fill="#fff" font-family="Arial, sans-serif" font-size="16" font-weight="bold" opacity="0.7">¥</text>
+  <text x="720" y="200" fill="#fff" font-family="Arial, sans-serif" font-size="16" font-weight="bold" opacity="0.7">£</text>
+  
+  <!-- Arrow indicating growth -->
+  <path d="M600 120 L650 100 L640 110 M650 100 L640 90" stroke="#00d4aa" stroke-width="3" fill="none"/>
+  
+  <!-- Title -->
+  <text x="400" y="350" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" opacity="0.9">
+    Global Markets
+  </text>
+</svg>

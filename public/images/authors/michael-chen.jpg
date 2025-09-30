@@ -1,0 +1,42 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#11998e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38ef7d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg2)"/>
+  
+  <!-- Face -->
+  <circle cx="100" cy="85" r="35" fill="#f4c2a1"/>
+  
+  <!-- Hair -->
+  <path d="M65 65 Q100 40 135 65 Q135 80 100 80 Q65 80 65 65" fill="#2c1810"/>
+  
+  <!-- Eyes -->
+  <circle cx="90" cy="80" r="3" fill="#333"/>
+  <circle cx="110" cy="80" r="3" fill="#333"/>
+  
+  <!-- Glasses -->
+  <circle cx="90" cy="80" r="8" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="110" cy="80" r="8" fill="none" stroke="#333" stroke-width="2"/>
+  <line x1="98" y1="80" x2="102" y2="80" stroke="#333" stroke-width="2"/>
+  
+  <!-- Nose -->
+  <ellipse cx="100" cy="88" rx="2" ry="3" fill="#e8a87c"/>
+  
+  <!-- Mouth -->
+  <path d="M95 95 Q100 100 105 95" stroke="#d63384" stroke-width="2" fill="none"/>
+  
+  <!-- Body/Suit -->
+  <rect x="75" y="120" width="50" height="80" fill="#1a1a2e" rx="10"/>
+  <rect x="85" y="125" width="30" height="70" fill="#16213e" rx="5"/>
+  
+  <!-- Tie -->
+  <polygon points="98,125 102,125 105,140 95,140" fill="#c41e3a"/>
+  
+  <!-- Text -->
+  <text x="100" y="185" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Michael Chen</text>
+</svg>
