@@ -7,6 +7,8 @@ import { notFound } from 'next/navigation';
 import '../globals.css';
 import PageLayout from '@/components/PageLayout';
 import { generateLayoutMetadata } from '@/lib/metadata';
+import { OrganizationSchema, WebsiteSchema } from '@/components/StructuredData';
+import PerformanceOptimizations from '@/components/PerformanceOptimizations';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -48,11 +50,16 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'}>
+      <head>
+        <OrganizationSchema locale={locale} />
+        <WebsiteSchema locale={locale} />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased ${
           locale === 'ar' ? 'font-arabic' : ''
         }`}
       >
+        <PerformanceOptimizations />
         <NextIntlClientProvider messages={messages}>
           <PageLayout>{children}</PageLayout>
         </NextIntlClientProvider>

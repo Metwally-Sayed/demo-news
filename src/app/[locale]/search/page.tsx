@@ -5,26 +5,30 @@ import SearchResults from '@/components/SearchResults';
 import { generateSearchMetadata } from '@/lib/metadata';
 
 type Props = {
-  params: { locale: string };
-  searchParams: { q?: string };
+  params: Promise<{ locale: string }>;
+  searchParams: Promise<{ q?: string }>;
 };
 
 export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
-  const query = searchParams.q || '';
+  const resolvedParams = await params;
+  const resolvedSearchParams = await searchParams;
+  const query = resolvedSearchParams.q || '';
   
   return generateSearchMetadata({
-    locale: params.locale,
+    locale: resolvedParams.locale,
     query: query || undefined,
   });
 }
 
-export default function SearchPage({ params, searchParams }: Props) {
-  const query = searchParams.q || '';
+export default async function SearchPage({ params, searchParams }: Props) {
+  const resolvedParams = await params;
+  const resolvedSearchParams = await searchParams;
+  const query = resolvedSearchParams.q || '';
 
   return (
     <div className="container mx-auto px-4 py-8">
       <Suspense fallback={<SearchResultsSkeleton />}>
-        <SearchResults query={query} locale={params.locale} />
+        <SearchResults query={query} locale={resolvedParams.locale} />
       </Suspense>
     </div>
   );

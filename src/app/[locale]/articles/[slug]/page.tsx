@@ -8,6 +8,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { generateArticleMetadata } from '@/lib/metadata';
+import { ArticleSchema, BreadcrumbSchema } from '@/components/StructuredData';
 
 interface ArticlePageProps {
   params: Promise<{
@@ -63,6 +64,15 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+      <ArticleSchema article={article} locale={locale} slug={slug} />
+      <BreadcrumbSchema 
+        items={[
+          { name: locale === 'ar' ? 'الرئيسية' : 'Home', url: `/${locale}` },
+          { name: locale === 'ar' ? 'المقالات' : 'Articles', url: `/${locale}/articles` },
+          { name: categoryName, url: `/${locale}/categories/${article.category.slug}` },
+          { name: title, url: `/${locale}/articles/${slug}` }
+        ]}
+      />
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Article Header */}
         <header className="mb-8">

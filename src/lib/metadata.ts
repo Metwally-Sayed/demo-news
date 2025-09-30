@@ -3,9 +3,11 @@ import { getTranslations } from 'next-intl/server';
 
 // Base configuration for the site
 export const SITE_CONFIG = {
-  baseUrl: 'https://demo-news.vercel.app',
-  defaultImage: 'https://source.unsplash.com/1200x630/?news,media',
+  baseUrl: 'https://demo-news-virid.vercel.app',
+  defaultImage: '/images/og-image.jpg',
   twitterHandle: '@demonews',
+  siteName: 'Demo News Portal',
+  siteDescription: 'Your trusted source for the latest breaking news and updates from around the world.',
 } as const;
 
 // TypeScript interfaces for metadata parameters
